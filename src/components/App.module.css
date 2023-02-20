@@ -1,0 +1,16 @@
+.box {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.title {
+  color: #d1d1d1;
+  font-size: 25px;
+  font-weight: 700;
+}
+.empty-list {
+  color: #d1d1d1;
+}
