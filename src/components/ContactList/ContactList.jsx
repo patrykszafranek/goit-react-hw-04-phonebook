@@ -5,7 +5,7 @@ const ContactList = ({ contacts, deleteContact }) => (
   <table>
     <tbody className={css.list}>
       {contacts.map(({ id, name, number }) => (
-        <tr key={id} className={css.item}>
+        <tr key={id} id={id} className={css.item}>
           <td className={css.name}>{name}:</td>
           <td className={css.number}>{number}</td>
           <td>
